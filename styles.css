@@ -7,7 +7,6 @@
     rgba(13, 32, 55, 1) 0%,
     rgba(33, 63, 99, 1) 49%
   );
-  margin: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +27,7 @@ h1:before {
   content: "Hello!";
   position: absolute;
   color: #f1b24a;
+  padding-left: 12px;
   top: 0;
   left: 0;
   width: 0%;
@@ -98,14 +98,14 @@ h1:hover:before {
 
 /* ------------------------- FAKE MODAL POP UP ------------------------------- */
 
-.container_popup {
+/* .container {
   height: 70vh;
   width: 90vh;
   border-radius: 20px;
   background-color: #ccc;
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* ------------------------COMPONENTS OF MODAL POP UP--------------------------- */
 
